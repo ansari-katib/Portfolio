@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loader</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       .circle{
+        margin: 30px;
+        border-radius: 50%;
+        height: 10em;
+        width: 10em;
+        background-color: rgb(199, 233, 189);
+        border: 20px solid #d4f900;
+        border-top: 20px solid #4ECDC4;
+        /* animation: spinanimate 0.3s ease-in 0s infinite normal ; */
+        animation: spinanimate 1s ease-in  0s infinite normal ;
+
+        
+       }
+
+       @keyframes spinanimate {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+        
+       }
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+</body>
+</html>
